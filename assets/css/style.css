@@ -1,26 +1,41 @@
-body {
-    background: white;
-    margin: 0;
-
-    font-size: 15px;
-    line-height: 1.6;
-    color: #333;
+@font-face {
+    font-family: 'Yandex Sans Display';
+    src: url('../fonts/YandexSansDisplay-Regular.eot');
+    src: local('Yandex Sans Display Regular'), local('YandexSansDisplay-Regular'),
+    url('../fonts/YandexSansDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/YandexSansDisplay-Regular.woff2') format('woff2'),
+    url('../fonts/YandexSansDisplay-Regular.woff') format('woff'),
+    url('../fonts/YandexSansDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
-*,
-*:before,
-*:after {
-    box-sizing: border-box;
+@font-face {
+    font-family: 'Yandex Sans Display Bold';
+    src: url('../fonts/YandexSansDisplay-Bold.eot');
+    src: local('Yandex Sans Display Bold'), local('YandexSansDisplay-Bold'),
+    url('../fonts/YandexSansDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/YandexSansDisplay-Bold.woff2') format('woff2'),
+    url('../fonts/YandexSansDisplay-Bold.woff') format('woff'),
+    url('../fonts/YandexSansDisplay-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
+@font-face {
+    font-family: 'Yandex Sans Text Light';
+    src: url('../fonts/YandexSansText-Light.eot');
+    src: local('Yandex Sans Text Light'), local('YandexSansText-Light'),
+    url('../fonts/YandexSansText-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/YandexSansText-Light.woff2') format('woff2'),
+    url('../fonts/YandexSansText-Light.woff') format('woff'),
+    url('../fonts/YandexSansText-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 ul {
   padding-left: 20px;
-  margin-top: 0em;
-  margin-bottom: 0em;
 }
 
 img{
@@ -33,37 +48,41 @@ img.displayed {
   margin-right: auto
 }
 
-table, td, th {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
 table {
-  margin: 10px auto;
+  border-collapse: collapse;
+  margin: 75px auto;
   width: 745px;
 }
-th {
-  height: 100%;
+
+li {
+  line-height: 1.7; /* Межстрочное расстояние */
 }
-td {
-  text-align: left;
-}
-.table_title{
-  border-spacing: 100px 0px
-}
-.first {
-  border-spacing: 50px 0px;
-}
-.second {
-  border-spacing: 20px;
-}
-.third_left {
-  border-spacing: 10px;
+
+.top-align {
   vertical-align: top;
 }
-.third_right {
-  border-spacing: 10px;
-  vertical-align: top;
+
+.logo-font {
+    font-family: 'Yandex Sans Display';
+    font-size: 50px;
+    transform: scale(.65,1.0);
+    margin: 0 -200px;
 }
-.fourth {
-  
+
+.display-font-gray {
+    font-family: 'Yandex Sans Display';
+    color: #232321;
+    margin: 0;
+    padding: 0;
+}
+
+.display-font {
+    font-family: 'Yandex Sans Display';
+
+    margin: 0;
+    padding: 0;
+}
+
+.red-first-letter {
+  color: #c4241a;
 }
