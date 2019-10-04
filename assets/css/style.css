@@ -10,30 +10,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Yandex Sans Display Bold';
-    src: url('../fonts/YandexSansDisplay-Bold.eot');
-    src: local('Yandex Sans Display Bold'), local('YandexSansDisplay-Bold'),
-    url('../fonts/YandexSansDisplay-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/YandexSansDisplay-Bold.woff2') format('woff2'),
-    url('../fonts/YandexSansDisplay-Bold.woff') format('woff'),
-    url('../fonts/YandexSansDisplay-Bold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Yandex Sans Text Light';
-    src: url('../fonts/YandexSansText-Light.eot');
-    src: local('Yandex Sans Text Light'), local('YandexSansText-Light'),
-    url('../fonts/YandexSansText-Light.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/YandexSansText-Light.woff2') format('woff2'),
-    url('../fonts/YandexSansText-Light.woff') format('woff'),
-    url('../fonts/YandexSansText-Light.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 ul {
   padding-left: 20px;
 }
@@ -55,7 +31,7 @@ table {
 }
 
 li {
-  line-height: 1.7; /* Межстрочное расстояние */
+  line-height: 1.7;
 }
 
 .top-align {
@@ -78,7 +54,6 @@ li {
 
 .display-font {
     font-family: 'Yandex Sans Display';
-
     margin: 0;
     padding: 0;
 }
